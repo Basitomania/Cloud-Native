@@ -1,0 +1,213 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.8.100:3111/ (Press CTRL+C to quit)
+INFO:app:Metrics successfully requested
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:10:56] "GET /metrics HTTP/1.1" 200 -
+INFO:app:Metrics successfully requested
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:13:55] "GET /metrics HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.8.100:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:40:29] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:40:29] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:40:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:40:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:40:37] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /metrics [GET]
+Traceback (most recent call last):
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1698, in make_response
+    raise TypeError(
+TypeError: The view function for 'metrics' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:40:37] "[35m[1mGET /metrics HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /metrics [GET]
+Traceback (most recent call last):
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1698, in make_response
+    raise TypeError(
+TypeError: The view function for 'metrics' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:40:41] "[35m[1mGET /metrics HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.8.100:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:43:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:43:41] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:43:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:43:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:43:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /metrics [GET]
+Traceback (most recent call last):
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1698, in make_response
+    raise TypeError(
+TypeError: The view function for 'metrics' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:43:49] "[35m[1mGET /metrics HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.8.100:3111/ (Press CTRL+C to quit)
+ERROR:app:Exception on /metrics [GET]
+Traceback (most recent call last):
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1698, in make_response
+    raise TypeError(
+TypeError: The view function for 'metrics' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:44:52] "[35m[1mGET /metrics HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /metrics [GET]
+Traceback (most recent call last):
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1698, in make_response
+    raise TypeError(
+TypeError: The view function for 'metrics' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:44:53] "[35m[1mGET /metrics HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.8.100:3111/ (Press CTRL+C to quit)
+INFO:app:Metrics successfully requested
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:45:31] "GET /metrics HTTP/1.1" 200 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.8.100:3111/ (Press CTRL+C to quit)
+ERROR:app:Exception on /metrics [GET]
+Traceback (most recent call last):
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1698, in make_response
+    raise TypeError(
+TypeError: The view function for 'metrics' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:48:36] "[35m[1mGET /metrics HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.8.100:3111/ (Press CTRL+C to quit)
+ERROR:app:Exception on /metrics [GET]
+Traceback (most recent call last):
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1698, in make_response
+    raise TypeError(
+TypeError: The view function for 'metrics' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:49:55] "[35m[1mGET /metrics HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /metrics [GET]
+Traceback (most recent call last):
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 2070, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1516, in full_dispatch_request
+    return self.finalize_request(rv)
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1535, in finalize_request
+    response = self.make_response(rv)
+  File "/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/flask/lib/python3.9/site-packages/flask/app.py", line 1698, in make_response
+    raise TypeError(
+TypeError: The view function for 'metrics' did not return a valid response. The function either returned None or ended without a return statement.
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:49:56] "[35m[1mGET /metrics HTTP/1.1[0m" 500 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.8.100:3111/ (Press CTRL+C to quit)
+INFO:app:Metrics successfully requested
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:51:58] "GET /metrics HTTP/1.1" 200 -
+INFO:app:Metrics successfully requested
+INFO:werkzeug:127.0.0.1 - - [27/Aug/2021 11:52:13] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 07:55:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 07:55:42] "GET /static/css/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 07:55:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 07:56:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 07:56:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 08:00:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 08:00:22] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 08:00:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 08:00:55] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 08:00:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 08:00:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 08:01:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 08:01:52] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 08:01:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 08:01:54] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 08:13:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 08:13:03] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:31:48] "GET /2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:31:48] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:31:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:31:50] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.8.101:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:32:19] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:32:19] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:32:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:32:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.8.101:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:33:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:33:39] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:33:44] "GET /2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:33:44] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.8.101:3111/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 531-113-439
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:34:56] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:34:56] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:34:57] "GET /2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:34:57] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in '/Users/basitabdulkareem/Udacity-Cloud-Native/nd064_course_1/project/techtrends/app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.8.101:3111/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:48:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:48:08] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:48:10] "GET /3 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:48:10] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:48:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:48:11] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:48:12] "GET /4 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 10:48:12] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.8.101:3111/ (Press CTRL+C to quit)
+INFO:app:Metrics successfully requested
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:00:59] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:05:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:05:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:05:23] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:05:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:05:28] "GET /6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:05:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:05:32] "GET /7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:05:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:12:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:12:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -

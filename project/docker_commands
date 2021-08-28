@@ -1,0 +1,29 @@
+## Docker commands used to build the application 
+# TODO: insert the docker build command
+docker build -t techtrends .
+
+## Docker commands used to run the application
+# TODO: insert the docker run command
+docker run -d -p 7111:3111 techtrends
+
+## Docker commands used to get the application logs
+# TODO: insert the docker logs command
+docker logs -f cd496ebaa01b
+
+## Logs from the container running the TechTrends application
+# TODO: paste logs from the Docker container 
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://192.168.8.101:3111/ (Press CTRL+C to quit)
+INFO:app:Metrics successfully requested
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:00:59] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:05:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:05:21] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:05:23] "GET /1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:05:23] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:05:28] "GET /6 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:05:28] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:05:32] "GET /7 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:05:32] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:12:58] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Aug/2021 11:12:58] "[36mGET /static/css/main.css HTTP/1.1[0m" 304 -
