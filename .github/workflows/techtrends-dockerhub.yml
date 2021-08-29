@@ -16,4 +16,4 @@ jobs:
           with:
             context: .
             push: true
-            tags: basitomania/techtrends:latest, basitomania/techtrends:${{ github.sha }}
+            tags: basitomania/techtrends:latest
