@@ -7,7 +7,7 @@ service:
 replicaCount: 5
 
 image:
-  tag: prod
+  tag: latest
 
 resources:
   requests:
